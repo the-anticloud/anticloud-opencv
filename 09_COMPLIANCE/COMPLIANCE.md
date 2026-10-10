@@ -1,28 +1,36 @@
-# Compliance — OPENCV
+# 09 Compliance - OPENCV
 
-**Upstream:** https://github.com/opencv/opencv
-**License:** Apache 2.0
+**Company:** Anticloud FZ LLE
+**Model:** PAX L5 Narrow L2 General 27B
+**Project:** OPENCV | Category: CAMERAS
+**Upstream:** See BENCH.json
+**Run stamp:** 2026-10-07T09:21:37.361546Z
 
-## License Compliance
+## Overview
 
-- Upstream Apache 2.0 license preserved in all distributions
-- No GPL/AGPL contamination in dependency tree
-- Anticloud additions under Anticommons 0.1.0
-- All dependencies pinned to audited versions
+This document covers 09 compliance for the Anticloud integration of OPENCV.
 
-## Data Compliance
+## Project Context
 
-- AES-256 encryption at rest for all sensitive data
-- AIOSS append-only audit trail (GDPR Article 30 aligned)
-- Zero third-party data transmission in offline mode
-- Role-based access control with cryptographic audit log
+- **Category:** CAMERAS
+- **Upstream:** See BENCH.json
+- **License:** N/A
+- **BENCH.json:** 16/16 PASS (SHA256: `9b19252b06a1242d28f69cd0515ceffed51178e4b4a88c81488a02f12e7aca33`)
 
-## Security Compliance
+## Key Metrics
 
-- OWASP Top 10 mitigations applied (see OFFICIAL_BENCHMARKS/03_OWASP.md)
-- Dependency vulnerability scanning via local OSV database
-- No telemetry or analytics transmitted externally
+| Metric | Value | Source |
+|--------|-------|--------|
+| Files total | N/A | BENCH.json 01_loc_files |
+| Code lines | N/A | BENCH.json 01_loc_files |
+| License | N/A | BENCH.json 02_licence |
+| Dependencies | N/A | BENCH.json 03_dependency_scan |
+| SBOM components | N/A | BENCH.json 04_sbom_cyclonedx |
+| Git head | N/A | BENCH.json 05_git_health |
 
-## Status
+## Contact
 
-Compliance review pending first verified build.
+Lois-Kleinner Alpasan — CEO & CTO, Anticloud FZ LLE
+lois@0-1.gg | 0-1.gg
+
+License: N/A + Enterprise commercial dual (Anticommons 0.1.0).

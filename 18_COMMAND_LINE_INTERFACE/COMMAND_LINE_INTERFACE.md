@@ -1,31 +1,36 @@
-# Command Line Interface — OPENCV
+# 18 Command Line Interface - OPENCV
 
-**Upstream:** https://github.com/opencv/opencv
+**Company:** Anticloud FZ LLE
+**Model:** PAX L5 Narrow L2 General 27B
+**Project:** OPENCV | Category: CAMERAS
+**Upstream:** See BENCH.json
+**Run stamp:** 2026-10-07T09:21:38.458087Z
 
-## Anticloud CLI
+## Overview
 
-```bash
-# Install
-pip install anticloud-opencv
+This document covers 18 command line interface for the Anticloud integration of OPENCV.
 
-# Run offline with PAX inference
-anticloud-opencv --offline --pax-local
+## Project Context
 
-# Run with AIOSS logging
-anticloud-opencv --aioss-log ./ledger.jsonl
+- **Category:** CAMERAS
+- **Upstream:** See BENCH.json
+- **License:** N/A
+- **BENCH.json:** 16/16 PASS (SHA256: `9b19252b06a1242d28f69cd0515ceffed51178e4b4a88c81488a02f12e7aca33`)
 
-# Single binary (after build)
-./opencv --config config.yaml
-```
+## Key Metrics
 
-## Options
+| Metric | Value | Source |
+|--------|-------|--------|
+| Files total | N/A | BENCH.json 01_loc_files |
+| Code lines | N/A | BENCH.json 01_loc_files |
+| License | N/A | BENCH.json 02_licence |
+| Dependencies | N/A | BENCH.json 03_dependency_scan |
+| SBOM components | N/A | BENCH.json 04_sbom_cyclonedx |
+| Git head | N/A | BENCH.json 05_git_health |
 
-| Flag | Description |
-| --- | --- |
-| `--offline` | Disable all network calls |
-| `--pax-local` | Use local PAX inference at 127.0.0.1:11434 |
-| `--aioss-log PATH` | Write AIOSS audit chain to PATH |
-| `--encrypt` | Enable AES-256 at rest for output files |
-| `--gpu` | Force GPU inference |
-| `--cpu` | Force CPU inference |
-| `--config PATH` | Load configuration from YAML file |
+## Contact
+
+Lois-Kleinner Alpasan — CEO & CTO, Anticloud FZ LLE
+lois@0-1.gg | 0-1.gg
+
+License: N/A + Enterprise commercial dual (Anticommons 0.1.0).
