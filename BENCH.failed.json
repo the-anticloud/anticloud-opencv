@@ -1,0 +1,10 @@
+{
+  "project": "OPENCV",
+  "category": "CAMERAS",
+  "path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\CAMERAS\\OPENCV",
+  "status": "failed",
+  "reason": "zero metrics (files=1, loc=0)",
+  "files_count": 1,
+  "lines_of_code": 0,
+  "sha": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+}
