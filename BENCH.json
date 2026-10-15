@@ -2,13 +2,11 @@
  "schema": "anticloud.tier-bench/1",
  "project": "OPENCV",
  "source": {
-  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\CAMERAS\\OPENCV\\UPSTREAM_CLONE",
   "git": {
-   "head": "fdc0cd97f5e7375d3633b54c6478d6bc251607f2",
-   "url": "https://github.com/roboflow/supervision",
-   "branch": "develop",
-   "committed_at": "",
-   "sha_verified_from": "GitHub API substitute swap 2026-10-12 | unified 2026-10-14 (API-exists + content/clone anchor)"
+   "url": "https://github.com/opencv/opencv",
+   "head": "25091848c53d09823b0574e57de8611933d18940",
+   "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
+   "previous_substitute": "https://github.com/roboflow/supervision"
   }
  },
  "metrics": {
