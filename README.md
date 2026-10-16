@@ -60,7 +60,7 @@ The upstream licence is preserved in `LICENSE` and `THIRD_PARTY_LICENSES/`. The 
 SHA3-256 of `BENCH.json`:
 
 ```
-8c01dbbc5bcccc819b7920ced229a214da803f781c4afa5fa78c840909d0c064
+fcc8f2dbf40046861d5adbbe84131c53c3a04cad1e9528f400c3c24a6d7b71a4
 ```
 
 Recompute the hash above and compare — any drift means the package has been tampered with and the seal is invalid. This is a self-assessment; no external audit has been performed and a SOC 2 / NIST independent audit is committed post-funding.

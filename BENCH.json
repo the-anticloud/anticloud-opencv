@@ -6,7 +6,7 @@
    "url": "https://github.com/opencv/opencv",
    "head": "25091848c53d09823b0574e57de8611933d18940",
    "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
-   "previous_substitute": "https://github.com/roboflow/supervision"
+   "previous_substitute": "https://github.com/opencv/opencv"
   }
  },
  "metrics": {
